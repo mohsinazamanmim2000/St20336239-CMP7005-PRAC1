@@ -362,7 +362,7 @@ This project taught me:
 
 ---
 
-## 📞 Contact
+## Contact
 
 **Mohsina Zaman Mim**  
 Student ID: St20336239  
