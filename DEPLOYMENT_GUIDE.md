@@ -169,7 +169,7 @@ St20336239-CMP7005-PRAC1/
 4. **Expected**: Shape shows correct dimensions
 5. **Expected**: Missing values summary appears
 
-**Pass Criteria**: ✅ All three sections display without errors
+**Pass Criteria**:  All three sections display without errors
 
 ---
 
@@ -189,7 +189,7 @@ Mumbai,85.2,150
 3. **Expected**: Values display as floats (125.5, 200.0, 85.2, 150.0)
 4. **Expected**: No "object" dtype errors
 
-**Pass Criteria**: ✅ Numeric columns recognized as float64
+**Pass Criteria**:  Numeric columns recognized as float64
 
 ---
 
@@ -206,7 +206,7 @@ Mumbai,85.2,150
 7. **Expected**: Scatter plot renders
 8. **Expected**: Correlation heatmap displays all pollutants
 
-**Pass Criteria**: ✅ All 4 visualization types work
+**Pass Criteria**:  All 4 visualization types work
 
 ---
 
@@ -236,7 +236,7 @@ Xylene: 8.0
 4. **Expected**: Predicted AQI displays (likely 200-300 range)
 5. **Expected**: Category shows "Poor" or "Very Poor"
 
-**Pass Criteria**: ✅ Prediction completes in <2 seconds, category matches value
+**Pass Criteria**:  Prediction completes in <2 seconds, category matches value
 
 ---
 
@@ -261,7 +261,7 @@ Xylene: 8.0
 - Enter PM2.5: 9999, other values: 9999
 - **Expected**: Prediction completes (may predict extremely high AQI)
 
-**Pass Criteria**: ✅ No application crashes
+**Pass Criteria**:  No application crashes
 
 ---
 
@@ -278,7 +278,7 @@ Xylene: 8.0
 5. Return to Data Overview, upload different file
 6. Verify new data replaces old data in session state
 
-**Pass Criteria**: ✅ Smooth navigation, data persists across pages, new upload replaces old
+**Pass Criteria**:  Smooth navigation, data persists across pages, new upload replaces old
 
 ---
 
@@ -293,7 +293,7 @@ Xylene: 8.0
 
 **Tool:** Browser developer tools (Network tab)
 
-**Pass Criteria**: ✅ All operations complete within time limits
+**Pass Criteria**:  All operations complete within time limits
 
 ---
 
