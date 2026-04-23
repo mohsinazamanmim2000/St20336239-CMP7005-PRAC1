@@ -18,6 +18,5 @@ st.markdown("""
 - **Author:** Mohsina Zaman Mim
 - **Student ID:** St20336239
 - **Course:** CMP7005 - Practical Assignment
-- **Submission Date:** February 12, 2026
 - **Version:** 2.0 (Revised Submission)
 """)
