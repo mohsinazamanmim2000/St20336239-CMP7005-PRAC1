@@ -35,8 +35,12 @@ st.title("🤖 AQI Prediction")
 # Load pre-trained machine learning model
 # Model was trained using Model_Development.ipynb
 # Stored as .pkl file using joblib for efficient serialization
+@st.cache_resource
+def load_model():
+    return joblib.load("aqi_model.pkl")
+
 try:
-    model = joblib.load("aqi_model.pkl")
+    model = load_model()
 except FileNotFoundError:
     st.error("❌ Model file 'aqi_model.pkl' not found. Please ensure it's in the project directory.")
     st.stop()
